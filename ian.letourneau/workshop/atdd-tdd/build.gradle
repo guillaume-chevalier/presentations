@@ -9,8 +9,8 @@ project.ext {
 
 dependencies {
     testCompile 'info.cukes:cucumber-java8:' + cucumberVersion
-    testCompile 'info.cukes:cucumber-junit:' + cucumberVersion
-    testCompile 'junit:junit:' + junitVersion
+    testCompile 'info.cukes:cucumber-domain:' + cucumberVersion
+    testCompile 'domain:domain:' + junitVersion
     testCompile 'org.mockito:mockito-all:' + mockitoVersion
     testCompile "com.google.truth:truth:" + googleTruthVersion
 }
